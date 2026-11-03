@@ -1,0 +1,39 @@
+{
+  "status": "actual_completed_native_runtime_record",
+  "source": "outputs/runtime-manifest.json",
+  "python": "3.13.16 (main, Oct  1 2026, 15:40:24) [GCC 13.3.0]",
+  "platform": "Linux-6.18.55+-x86_64-with-glibc2.39",
+  "packages": {
+    "numpy": "2.1.3",
+    "scipy": "1.16.3",
+    "opencv-python": "4.14.0.94",
+    "opencv-python-headless": "4.14.0.94",
+    "pandas": "2.3.3",
+    "torch": "2.11.0+cu130",
+    "torchvision": "0.26.0+cu130",
+    "pycocotools": "2.0.11",
+    "matplotlib": "3.10.0",
+    "Pillow": "13.0.0",
+    "joblib": "1.6.0",
+    "scikit-learn": "1.6.1",
+    "ipython": "7.34.0"
+  },
+  "opencv_runtime_version": "4.14.0",
+  "opencv_build_information_source": "outputs/runtime-manifest.json",
+  "torch_cuda_build": "13.0",
+  "cuda_available": true,
+  "cuda_devices": [
+    "Tesla T4",
+    "Tesla T4"
+  ],
+  "source_sha256": {
+    "dataset.py": "0fb04691dfd78dbb121eb56362100a83616ca4c174169a3a0f18b3d07346321c",
+    "evaluation.py": "4548a68482a2401fd6ee4b73a51f21eef07f8ae477551c3b4d9d8a4f3b64df67",
+    "unet_candidate.py": "04de330d8b304775487ea35216d87ee422391f5b8a4eca972dd15aa032cc8fe0",
+    "pipeline.py": "63527af6fa04e722e0e7fd6af22f8eb244b819722a87ac607250189f9e5b1996"
+  },
+  "distribution_versions_are_actual_native_metadata": true,
+  "full_transitive_environment_lock": false,
+  "integration_installed_packages": false,
+  "note": "All captured non-null distribution versions are pinned in requirements.txt. This is the captured subset, not a full pip freeze or a promise of cross-platform GPU bitwise determinism."
+}

@@ -1,0 +1,83 @@
+{
+  "attribution": "MAGFiLO / NSO GONG H-alpha; CC BY-NC 4.0; noncommercial competition report",
+  "selection": [
+    "20110123174914Mh.jpeg",
+    "20110203082634Lh.jpeg",
+    "20110205082634Lh.jpeg"
+  ],
+  "selection_before_holdout_evaluation": true,
+  "figures": [
+    {
+      "observation": "20110123174914Mh.jpeg",
+      "selection": "first three fixed sorted holdout names, chosen before evaluation",
+      "per_observation_global_pq": 0.48067854018118056,
+      "counts": {
+        "sum_iou": 1.4420356205435416,
+        "tp": 2,
+        "fp": 1,
+        "fn": 1
+      },
+      "files": [
+        {
+          "name": "holdout-example-20110123174914Mh.png",
+          "bytes": 262150,
+          "sha256": "c773b8e9000457e9dc997d25d98da48c6549624d231a8870404551b3ae4d3fb7"
+        },
+        {
+          "name": "holdout-example-20110123174914Mh.pdf",
+          "bytes": 264465,
+          "sha256": "fa6aa7333b25a5a2d57408a556cc50ca3ba491717550452a7e64f4b49b2c9dca"
+        }
+      ],
+      "ground_truth_union_is_display_only": true
+    },
+    {
+      "observation": "20110203082634Lh.jpeg",
+      "selection": "first three fixed sorted holdout names, chosen before evaluation",
+      "per_observation_global_pq": 0.060675969992740185,
+      "counts": {
+        "sum_iou": 0.6977736549165121,
+        "tp": 1,
+        "fp": 14,
+        "fn": 7
+      },
+      "files": [
+        {
+          "name": "holdout-example-20110203082634Lh.png",
+          "bytes": 314528,
+          "sha256": "eb4b0785e7782d94b1308d065b68077b7cf24023975d2e07908cb8d45485496c"
+        },
+        {
+          "name": "holdout-example-20110203082634Lh.pdf",
+          "bytes": 306367,
+          "sha256": "5884e620ebfcebce0db50f9b3039ebc531d1bed812644208c014abbf294981c5"
+        }
+      ],
+      "ground_truth_union_is_display_only": true
+    },
+    {
+      "observation": "20110205082634Lh.jpeg",
+      "selection": "first three fixed sorted holdout names, chosen before evaluation",
+      "per_observation_global_pq": 0.13567442687433567,
+      "counts": {
+        "sum_iou": 1.0853954149946854,
+        "tp": 2,
+        "fp": 8,
+        "fn": 4
+      },
+      "files": [
+        {
+          "name": "holdout-example-20110205082634Lh.png",
+          "bytes": 310830,
+          "sha256": "031d81e6868e610d5dc1bf130810638afe8f85e8e31232959ab2976a09bb4f87"
+        },
+        {
+          "name": "holdout-example-20110205082634Lh.pdf",
+          "bytes": 307547,
+          "sha256": "7df24aa0d1b8f47b649a50f3bbf558aabfa8e0c92e9f3b9099ae318980d71086"
+        }
+      ],
+      "ground_truth_union_is_display_only": true
+    }
+  ]
+}

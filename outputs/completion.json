@@ -1,0 +1,20 @@
+{
+  "status": "LOCAL_PIPELINE_COMPLETE_NO_OFFICIAL_SUBMISSION",
+  "freeze_id": "67a087edfc959c02ac15920ed15f8c36375e0613e2b582750447b1145998dbc3",
+  "threshold": 0.65,
+  "holdout_official_global_pq": 0.318381864185715,
+  "holdout_observations": 141,
+  "test_images_processed": 180,
+  "csv": {
+    "name": "submission.csv",
+    "bytes": 390234,
+    "sha256": "06253901c0c3428a22c1b67bc47515c1f38551cd54ae11d829689bdf5d453574"
+  },
+  "zero_detection_images": [
+    "20180507140210Th.jpeg",
+    "20200310113230Ch.jpeg"
+  ],
+  "official_submission_completed": false,
+  "completed_at_utc": "2026-11-03T16:41:16.956886+00:00",
+  "train_annotation_sha256": "5da9e92b5a1a1947fd5d57adb6688269625c48ec1ef884daf2a01618c9ed54a1"
+}

@@ -1,0 +1,61 @@
+# Python and development caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+
+# Official datasets and local input copies
+/data/
+/datasets/
+/raw/
+/train/
+/test/
+/train_images/
+/test_images/
+*Annotations*.json
+
+# Credentials and local configuration
+.env
+.env.*
+.kaggle/
+kaggle.json
+credentials*
+*credentials*.json
+secrets.*
+private-credentials/
+*.pem
+*.key
+*.p12
+*.token
+
+# Temporary/runtime files; final model/ and outputs/ remain available
+/model/checkpoints/
+/outputs/cache/
+/outputs/tmp/
+/reproduced-outputs/
+/retrained-model/
+/retrained-outputs/
+/retrained-checkpoints/
+tmp/
+temp/
+*.tmp
+*.temp
+*.log
+*.zip
+*.aux
+*.out
+*.toc
+
+# Editor/OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini

@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+  "weights_sha256": "669290bdf0366ada5590978d5b4a0ce9c9f728cba060162e0af2d5c460c6ce14",
+  "config_sha256": "eac1dd0db74ed5938476d85ff2f8994f43df7747b45776581ec63c3cff8bc3dc",
+  "training_manifest_sha256": "dad767b41f85d10d8302db3ec45f09714d30a7c705f817595c23ddb5c33d7f86",
+  "split_sha256": "689f4f74f2e618e17e456f0e9d602332aaedec78d57323edd6b0d81817c88dc9",
+  "development_report_sha256": "65ed8a62736c6b03f0a841781e07088f6606bb7249ecdf4a0b2f7fbe6a5dc104",
+  "source_sha256": {
+    "dataset.py": "0fb04691dfd78dbb121eb56362100a83616ca4c174169a3a0f18b3d07346321c",
+    "evaluation.py": "4548a68482a2401fd6ee4b73a51f21eef07f8ae477551c3b4d9d8a4f3b64df67",
+    "unet_candidate.py": "04de330d8b304775487ea35216d87ee422391f5b8a4eca972dd15aa032cc8fe0",
+    "pipeline.py": "63527af6fa04e722e0e7fd6af22f8eb244b819722a87ac607250189f9e5b1996"
+  },
+  "thresholds_predefined": [
+    0.45,
+    0.65,
+    0.8
+  ],
+  "tie_policy": "first in predefined order",
+  "selected_threshold": 0.65,
+  "development_trials": [
+    {
+      "threshold": 0.45,
+      "counts": {
+        "sum_iou": 40.89914337226837,
+        "tp": 65,
+        "fp": 68,
+        "fn": 49
+      },
+      "official_global_pq": 0.33116715281188963
+    },
+    {
+      "threshold": 0.65,
+      "counts": {
+        "sum_iou": 43.5688595105739,
+        "tp": 68,
+        "fp": 49,
+        "fn": 46
+      },
+      "official_global_pq": 0.3772195628621117
+    },
+    {
+      "threshold": 0.8,
+      "counts": {
+        "sum_iou": 39.82898810289088,
+        "tp": 62,
+        "fp": 47,
+        "fn": 52
+      },
+      "official_global_pq": 0.3572106556313084
+    }
+  ],
+  "zero_gt_sets_excluded": [],
+  "selection_source": "fixed dev8 only, before holdout/test",
+  "freeze_id": "67a087edfc959c02ac15920ed15f8c36375e0613e2b582750447b1145998dbc3",
+  "created_at_utc": "2026-11-03T16:36:25.807424+00:00"
+}

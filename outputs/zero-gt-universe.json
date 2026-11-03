@@ -1,0 +1,5 @@
+{
+  "zero_gt_annotator_image_ids": [],
+  "count": 0,
+  "evaluation_policy": "exclude from organizer GT-filament-row universe; record rather than merge annotators"
+}

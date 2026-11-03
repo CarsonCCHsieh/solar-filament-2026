@@ -1,0 +1,122 @@
+{
+  "schema_version": 1,
+  "files": [
+    {
+      "name": "model/weights.pt",
+      "bytes": 1964575,
+      "sha256": "669290bdf0366ada5590978d5b4a0ce9c9f728cba060162e0af2d5c460c6ce14"
+    },
+    {
+      "name": "model/config.json",
+      "bytes": 431,
+      "sha256": "eac1dd0db74ed5938476d85ff2f8994f43df7747b45776581ec63c3cff8bc3dc"
+    },
+    {
+      "name": "model/training-manifest.json",
+      "bytes": 19523,
+      "sha256": "dad767b41f85d10d8302db3ec45f09714d30a7c705f817595c23ddb5c33d7f86"
+    },
+    {
+      "name": "outputs/completion.json",
+      "bytes": 719,
+      "sha256": "1674f0d08b216beaaa7f450a060409ca64d8824000cebfc4f218bd4e2246c25c"
+    },
+    {
+      "name": "outputs/development-results.json",
+      "bytes": 49335,
+      "sha256": "d04fb4b8ac811eb2166837d9e2955c38be5929984434631eefc5d482f0aba345"
+    },
+    {
+      "name": "outputs/threshold-freeze.json",
+      "bytes": 1871,
+      "sha256": "0311ddc8816cbd29c14c6c6eaa905b648da3f3e80d69d1d9e0f956047e1d96fa"
+    },
+    {
+      "name": "outputs/holdout-results.json",
+      "bytes": 7738,
+      "sha256": "003db760ae2d2ebbedecd48ba7e8f89a0cf4a8d4c0776f3ad258fdbb02569815"
+    },
+    {
+      "name": "outputs/holdout-results.jsonl",
+      "bytes": 72908,
+      "sha256": "6288edb9c7c31e9444658e7955b6a3a2638a4bfbeddc717eacdcccb9168ed26f"
+    },
+    {
+      "name": "outputs/test-predictions.jsonl",
+      "bytes": 656221,
+      "sha256": "2921a93c6be5d665c72fe612757cac37d5b44dabf74d244c9c3d8485018dad55"
+    },
+    {
+      "name": "outputs/submission.csv",
+      "bytes": 390234,
+      "sha256": "06253901c0c3428a22c1b67bc47515c1f38551cd54ae11d829689bdf5d453574"
+    },
+    {
+      "name": "outputs/test-coverage-manifest.json",
+      "bytes": 6889,
+      "sha256": "fe69d9fb6f8f258aa9b90362f8154cc58ff9f040a8dd9a7773cbda791670b89c"
+    },
+    {
+      "name": "outputs/runtime-manifest.json",
+      "bytes": 8853,
+      "sha256": "48669e2e01b665c3a2ebe2eedebfc4e8ffff27da43e6bd18ea0219e326829c61"
+    },
+    {
+      "name": "outputs/split-manifest.json",
+      "bytes": 37060,
+      "sha256": "d9f6e42e54a93ebbf3aed133a59a5ee7827d9917dbf1e5bac7b6b0949ea3a3e4"
+    },
+    {
+      "name": "outputs/zero-gt-universe.json",
+      "bytes": 165,
+      "sha256": "fc43dca266252f896d8a050bd042e03f5abdf34f728a4fb9f4032856ec72f423"
+    },
+    {
+      "name": "outputs/figures/figures-manifest.json",
+      "bytes": 2608,
+      "sha256": "92b9a61c080fa4eface50e0caadfbd23d60db55b0e5b23bd6bd89dd367600e6b"
+    },
+    {
+      "name": "outputs/figures/holdout-example-20110123174914Mh.png",
+      "bytes": 262150,
+      "sha256": "c773b8e9000457e9dc997d25d98da48c6549624d231a8870404551b3ae4d3fb7"
+    },
+    {
+      "name": "outputs/figures/holdout-example-20110123174914Mh.pdf",
+      "bytes": 264465,
+      "sha256": "fa6aa7333b25a5a2d57408a556cc50ca3ba491717550452a7e64f4b49b2c9dca"
+    },
+    {
+      "name": "outputs/figures/holdout-example-20110203082634Lh.png",
+      "bytes": 314528,
+      "sha256": "eb4b0785e7782d94b1308d065b68077b7cf24023975d2e07908cb8d45485496c"
+    },
+    {
+      "name": "outputs/figures/holdout-example-20110203082634Lh.pdf",
+      "bytes": 306367,
+      "sha256": "5884e620ebfcebce0db50f9b3039ebc531d1bed812644208c014abbf294981c5"
+    },
+    {
+      "name": "outputs/figures/holdout-example-20110205082634Lh.png",
+      "bytes": 310830,
+      "sha256": "031d81e6868e610d5dc1bf130810638afe8f85e8e31232959ab2976a09bb4f87"
+    },
+    {
+      "name": "outputs/figures/holdout-example-20110205082634Lh.pdf",
+      "bytes": 307547,
+      "sha256": "7df24aa0d1b8f47b649a50f3bbf558aabfa8e0c92e9f3b9099ae318980d71086"
+    }
+  ],
+  "source_sha256": {
+    "dataset.py": "0fb04691dfd78dbb121eb56362100a83616ca4c174169a3a0f18b3d07346321c",
+    "evaluation.py": "4548a68482a2401fd6ee4b73a51f21eef07f8ae477551c3b4d9d8a4f3b64df67",
+    "unet_candidate.py": "04de330d8b304775487ea35216d87ee422391f5b8a4eca972dd15aa032cc8fe0",
+    "pipeline.py": "63527af6fa04e722e0e7fd6af22f8eb244b819722a87ac607250189f9e5b1996"
+  },
+  "freeze_id": "67a087edfc959c02ac15920ed15f8c36375e0613e2b582750447b1145998dbc3",
+  "raw_dataset_included": false,
+  "official_submission_completed": false,
+  "created_at_utc": "2026-11-03T16:41:17.172297+00:00",
+  "figure_attribution": "MAGFiLO / NSO GONG H-alpha; CC BY-NC 4.0; noncommercial competition report",
+  "packaging_policy": "Explicit model and result allowlist only; no input images, annotations, credentials or private audits"
+}

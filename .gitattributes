@@ -1,0 +1,15 @@
+# Preserve source identities used by the native threshold freeze.
+*.py text eol=lf
+*.ipynb text eol=lf
+*.json text eol=lf
+*.jsonl text eol=lf
+*.md text eol=lf
+*.txt text eol=lf
+.gitignore text eol=lf
+.gitattributes text eol=lf
+
+# Preserve the exact recorded artifact bytes and SHA-256 values.
+*.csv -text
+*.pt -text
+*.png -text
+*.pdf -text

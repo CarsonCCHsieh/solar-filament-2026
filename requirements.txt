@@ -1,0 +1,20 @@
+# Exact distribution versions observed by the completed native pipeline.
+# Source of truth: outputs/runtime-manifest.json; Python 3.13.16.
+# This is the recorded package subset, not a full transitive pip freeze.
+# Both OpenCV distributions were present in that native environment.
+# CUDA-tagged PyTorch wheels require the matching runtime/package source.
+numpy==2.1.3
+scipy==1.16.3
+opencv-python==4.14.0.94
+opencv-python-headless==4.14.0.94
+pandas==2.3.3
+torch==2.11.0+cu130
+torchvision==0.26.0+cu130
+pycocotools==2.0.11
+matplotlib==3.10.0
+Pillow==13.0.0
+joblib==1.6.0
+scikit-learn==1.6.1
+ipython==7.34.0
+
+# No package installation was performed during artifact integration.

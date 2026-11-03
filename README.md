@@ -1,9 +1,9 @@
 # Solar filament instance segmentation
 
 Native training, held-out evaluation and inference on all 180 test observations
-are complete. The Kaggle prediction submission is pending scoring. The final
-report and reproducible model artifacts are included; the final entry form is
-being completed.
+are complete. Kaggle accepted the prediction CSV, which is selected for final
+evaluation. The report and reproducible model artifacts are included; the final
+entry form remains pending.
 
 The model is an original **487,857-parameter U-Net**, trained from scratch for
 24 epochs on 558 observations in the native Kaggle GPU environment with
@@ -40,7 +40,8 @@ were processed, and all 1,661 written compressed COCO RLE masks were reread,
 decoded and compared with their inferred-mask hashes in the native run. The
 CSV is 390,234 bytes, SHA-256
 `06253901c0c3428a22c1b67bc47515c1f38551cd54ae11d829689bdf5d453574`.
-Server scoring/acceptance remains pending.
+Kaggle reports Success / Complete and displays a public score of **0.28**
+(displayed precision only). This CSV is selected for final evaluation.
 
 ## Reproduce inference without retraining
 

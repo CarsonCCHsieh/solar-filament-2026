@@ -76,10 +76,10 @@ Seeds are fixed, but cross-platform GPU bitwise determinism is not promised.
   reread, decoded with genuine pycocotools and compared with a hash of the
   original inferred binary mask. The coverage manifest accounts for every
   image, including those with no detections.
-- A zero-detection image receives no fabricated filament row. The visible
-  offline evaluator supports this policy; actual server acceptance is still
-  pending server processing. The actual Kaggle prediction upload is pending
-  scoring; the final entry form is not yet complete.
+- A zero-detection image receives no fabricated filament row. The actual
+  Kaggle submission, including two such images, completed successfully and
+  displays a public score of 0.28 (displayed precision only). This CSV is
+  selected for final evaluation; the final entry form remains pending.
 
 ## Figures, attribution and delivery
 
@@ -133,6 +133,7 @@ than real-data accuracy.
 Actual native execution records 141-observation holdout PQ 0.318381864185715,
 all 180 test images and 1,661 compressed-RLE mask roundtrips in the included
 output artifacts. The source notebook remains unexecuted and includes no
-fabricated outputs or scores; actual results are in `outputs/`. Final server
-scoring remains pending. The completed four-page report is
+fabricated outputs or scores; actual local results are in `outputs/`. Kaggle
+displays a public score of 0.28; the final entry form remains pending.
+The completed four-page report is
 [`report.pdf`](report.pdf).
